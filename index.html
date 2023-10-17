@@ -9,7 +9,7 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
     />
-    <link
+    <!-- <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
       integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
@@ -18,18 +18,44 @@
     <link
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
-    />
+    /> -->
     <link rel="stylesheet" href="./style.css" />
 </head>
 <body>
     <header>
       <h1 id="weather-display">Weather Display</h1>
     </header>
-    <div>
+    <!-- Below: form tags allows for input tags, label tags and etc. -->
+    <form>
       <h1 id="city-search">Search for a City</h1>
-      Below: input tag is use to make the search bar in html.
+      <!-- Below: input tag is use to make the search bar in html. -->
       <input type="text" placeholder="Minneapolis..">
+      <button id="search-city">submit</button>
+    </form>
+    <!-- Below: class="text-center" is bootstrap way of centering the Current Weather into the middle of the browser. -->
+    <h1 class="text-center" id="current-weather">Current Weather</h1>
+    <div class="container-fluid text-center col-12">
+      <div class="row">
+        <div class="col">
+          Column
+        </div>
+        <div class="col">
+          Column
+        </div>
+        <div class="col">
+          Column
+        </div>
+        <div class="col">
+          Column
+        </div>
+        <div class="col">
+          Column
+        </div>
+      </div>
     </div>
+    <!-- Below: allows the bootstrap to connect to my html. -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <script src="script.js"></script>
 </body>
 </html>
