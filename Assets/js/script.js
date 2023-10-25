@@ -1,3 +1,8 @@
+// Author: Joey Thao
+// Collaborators: Jason Yang, Sichoun Lee
+// Date: 10/24/2023
+// Description: developing a weather forecast display to see the upcoming weather.  
+
 // Below: the apiKey is use to retrieve data through creating an account through the weather website.
 const apiKey = "d873fc9a964d259941e1ffb84bcb79c6";
 // Below: default city to test before changing the variable into the text-area value.
@@ -187,6 +192,7 @@ function fiveDaysCast (longitude, latitude) {
 
   function clickAppear(event) {
     event.preventDefault();
+    currentWeather.children().remove();
     currentCity = $(this).val();
     url = `https://api.openweathermap.org/data/2.5/weather?q=${currentCity}&appid=d873fc9a964d259941e1ffb84bcb79c6`;
 

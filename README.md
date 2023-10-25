@@ -1,5 +1,9 @@
 # Weather Display
 
+https://github.com/Thaodev23/weather-display
+
+https://thaodev23.github.io/weather-display/ 
+
 ## User Story
 
 ```
@@ -25,6 +29,21 @@ Then data for that specific city will be display
 
 ## Image
 
-![The weather app includes a search option, a list of cities, and a five-day forecast and current weather conditions for Atlanta.](./Assets/06-server-side-apis-homework-demo.png)
+Below: Image of the weather display. 
+![Alt text](pic1.png)
+
+## Collaborators
+
+```
+Jason Yang:
+Github profile - https://github.com/Jasony95
+Classmate that collaborated on the homework assignment together.
+ ```
+
+```
+Sichoun Nplhaib Lee:
+Github profile - https://github.com/DDXP3.
+Classmate that collaborated on the homework assignment together.
+```
 
 
