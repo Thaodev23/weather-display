@@ -1,0 +1,36 @@
+header {
+    text-align: center;
+    color:blue;
+    background-color: aqua;
+    background-repeat: no-repeat; 
+    /* padding: 100px; */
+      
+}
+
+#city-search {
+    font-size: 20px;
+    /* padding-left: 10px; */
+    margin-left: 10px;
+}
+
+#present-weather {
+    font-size: 20px;
+}
+
+#text-city {
+    margin-left: 10px;
+}
+
+
+/* form {
+    display: flex;
+    justify-content: flex-start;
+} */
+
+.btn {
+    border: solid;
+    border-color: black;
+    border-width: 1px;
+    background-color: gray;
+    margin-left: 10px;
+}
